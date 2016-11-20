@@ -8,7 +8,7 @@ try:
 except:
     filelist = ["music/jpg/pachelbel_canon_d_major_duet.jpg", "music/jpg/jo_stafford_ill_never_smile_again.jpg", "music/rock/metallica_enter_sandman.jpg", "music/rap/dr_dre_kush.jpg"]
 
-if 0:
+if 1:
     # import a few labeld images
     app.inputs.create_image_from_filename(filename="music/jpg/bach_jesu_joy_of_mans_desiring.jpg", concepts=["classical"], not_concepts=["jazz", "rap", "rock"], allow_duplicate_url=True)
     app.inputs.create_image_from_filename(filename="music/jpg/beethoven_duet_allegro_c_major.jpg", concepts=["classical"], not_concepts=["jazz", "rap", "rock"], allow_duplicate_url=True)
@@ -28,6 +28,7 @@ if 0:
     app.inputs.create_image_from_filename(filename="music/rap/wiz_khalifa_bake_sale.jpg", concepts=["rap"], not_concepts=["rock", "jazz", "classical"], allow_duplicate_url=True)
     app.inputs.create_image_from_filename(filename="music/rap/ll_cool_j_headsprung.jpg", concepts=["rap"], not_concepts=["rock", "jazz", "classical"], allow_duplicate_url=True)
     app.inputs.create_image_from_filename(filename="music/rap/missy_elliott_where_they_from.jpg", concepts=["rap"], not_concepts=["rock", "jazz", "classical"], allow_duplicate_url=True)
+    app.inputs.create_image_from_filename(filename="music/rap/lil_dicky_save_dat_money.jpg", concepts=["rap"], not_concepts=["rock", "jazz", "classical"], allow_duplicate_url=True)
 
     app.inputs.create_image_from_filename(filename="music/rock/guns_n_roses_paradise_city.jpg", concepts=["rock"], not_concepts=["rap", "jazz", "classical"], allow_duplicate_url=True)
     app.inputs.create_image_from_filename(filename="music/rock/nirvana_smells_like_teen_spirit.jpg", concepts=["rock"], not_concepts=["rap", "jazz", "classical"], allow_duplicate_url=True)
